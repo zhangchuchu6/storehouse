@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <link rel="stylesheet" type="text/css" href="css/public.css"/>
+  <link rel="stylesheet" type="text/css" href="css/text.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/swiper.min.css">
+
+  <style>
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 400px;
+      height: 600px;
+
+    }
+  </style>
+</head>
+<body>
+	<!--头部-->
+    <div class="head">
+		<div class="head_one">
+		 <a href=""><img src="img/login.jpg" class="imgs"/></a>
+     	<ul>
+			<a href=""><li>关于我们</li></a>
+			<a href=""><li>精选系列</li></a>
+			<a href=""><li>男装</li></a>
+		    <a href=""><li>女装</li></a>
+			<a href=""><li>牛仔风潮</li></a>
+			<a href=""><li>Lee Create</li></a>		  	
+		 </ul>
+	    <div class="head_right">
+			<ul>
+				<li> 
+					<a href="">
+						<img src="img/wx.png" class="wx"/>
+						<img src="img/wxs.png" class="wxs"/>
+					</a
+				</li>
+				<li>
+					<a href="">
+					    <img src="img/wb.png"/> 
+					</a>  		
+			   </li>
+			</ul>
+			<span class="head_s">
+				<input type="" value=""/>
+				<button><img src="img/icon_1.png"/></button>
+			</span>
+			 <span class="head_v">
+				  <a href=""><img src="img/hd_fav.png" class="v_1"/></a>
+				  	<a href="">登录<img src="img/men.png" class="v_2"/></a>
+			</span>
+		 </div>
+	</div>
+</div>
+<!--潮流混搭-->
+   <div class="pop">
+   	<h3>潮流搭配</h3>
+   </div>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+            <div class="swiper-slide"style="background-image:url(img/4_i1.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(img/4_i2.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(img/4_i3.jpg)"></div>
+             <div class="swiper-slide" style="background-image:url(img/4_i4.jpg)"></div>
+               <div class="swiper-slide" style="background-image:url(img/4_i5.jpg)"></div>
+                 <div class="swiper-slide" style="background-image:url(img/4_i6.jpg)"></div>
+                   <div class="swiper-slide" style="background-image:url(img/4_i7.jpg)"></div>
+                 <div class="swiper-slide" style="background-image:url(img/4_i8.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(img/4_i9.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(img/4_i10.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(img/4_i11.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(img/4_i12.jpg)"></div>
+
+           
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>  
+<!--  模特同款-->
+<div class="pop">
+	<h3>模特同款</h3>
+</div>
+<!--同款样式-->
+<!--第一个ul-->
+<div class="same">
+		 <ul class="address">
+<!--第一个ul中的第一个li-->
+			<li>
+			<a href="" class="imgs_add"><img src="img/5_m1.jpg" alt="" /></a>
+			<div class="address_three">
+				<h3><a href="">18秋冬 101+</a></h3>
+				<h3><a href="">女装T恤</a></h3>
+				<p>L317623RTK14</p>
+			</div>
+			<div class="address_two">
+		         <a href=""><img src="img/shixintaoxin.png" alt="" /></a>
+
+			</div>			 
+			</li>
+	 </ul>
+</div>
+<
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+    $(".swiper-wrapper").mouseup(function(){
+    	console.log(3)
+    })
+	    $(".swiper-slide").each(function(i){
+	    	$(this).click(function(){
+	    			console.log(2)
+	    	})
+	    })
+  </script>
+</body>
+</html>

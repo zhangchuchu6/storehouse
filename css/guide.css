@@ -1,0 +1,287 @@
+/*版型指南*/
+.guides{
+	width:100%;
+	height:60px;
+}
+.guides p{
+	text-align:center;
+}
+/*放大镜效果*/
+.s_guide{
+	width:100%;
+}
+.big_guide{
+	width:96%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.guide_left{
+	width:510px;
+	float:left;
+			}
+#bigBox{
+	position:relative;
+	border: 1px solid gray;
+	width:500px;
+	height:340px;
+	background-size:500px 340px;
+}
+#mirrorBox{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100px;
+	height:80px;
+	background-color:pink;
+	opacity:0.5;
+	display:none;
+	}
+#showBox{
+	position:absolute;
+	left:510px;			
+	top:0px;
+	width:300px;
+	height:240px;
+	background-image:url(../img/bigs1.jpg);
+	background-size:1500px 1020px;
+	background-position:0px 0px;
+	display:none;
+	}
+	ul{
+				list-style: none;
+			}			
+			
+			#imgList li{
+				display: block;
+				width: 80px;
+				height: 80px;
+				float: left;
+				 margin: 4px;
+				background-size: cover;
+			}
+			
+		.guide_right{
+			float: left;
+			margin-left: 100px;
+			
+		}
+		
+		.guide_right .shoucang{
+			margin-top:20px;
+			text-decoration: none;
+			color:white;
+			width:230px;
+			height:35px;
+			background: black;
+			display: block;
+			text-align: center;
+			line-height:35px;
+		}
+		.guide_right span a{
+			margin-right:30px;
+		}
+		.guide_right .buttons{
+			margin-top:20px;
+			text-decoration: none;
+			color:white;
+			width:230px;
+			height:35px;
+			background: black;
+			display: block;
+			text-align: center;
+			line-height:35px;
+		}
+		.colors{
+			margin-top:30px;
+			height:36px;
+			line-height: 36px;
+		}
+		.colors h2{
+			float: left;
+			margin:0;
+			width:100px;
+		}
+/*你可能喜欢	*/	
+		.guide_bot{
+			width:100%;
+			margin-top:50px;
+		}
+		.bots{
+			text-align: center;
+		}
+/*图片列表*/
+.product{
+	width:100%;
+	height:500px;
+}
+.productList{
+	width:94%;
+	margin: 0 auto;
+	height:500px;
+}
+.address .imgs_add img{
+			width:280px;
+			height:280px;
+		}
+		.address li{
+			width:300px;
+			height:300px;
+			border:1px solid black;
+			display: inline-block;
+		}
+/*中间图片设置左右值*/
+		.address .address_three{
+			float:left;
+			margin-top:18px;
+		}
+		.address_three h3 a{
+			text-decoration: none;
+			color:black;
+			font-size:14px;
+		}
+		.address_three p {
+			color:#58585a;
+			font-size:14px;
+			margin-top:5px;
+		}
+		.address .address_two{
+			float:right;	
+		}
+/*桃心部分*/
+		.address_two{
+			width:40px;
+			height:40px;
+			margin-top:58px;
+			border-radius: 50%;
+			border:1px solid black;
+			position:relative;
+		}
+		.address_two img{
+			width:25px;
+			height:20px;
+			position:absolute;
+			    top: 10px;
+                left: 8px;
+		}
+		.images_Father{
+			width: 317px;
+			margin:0 auto
+		}
+		.imgages{
+			width:100%;
+			clear: both;
+			text-align: center;
+			
+		}
+		.imgages img{
+			width:315px;
+			height:315px;
+			display: block;
+			border:1px solid black;
+			margin-bottom: 10px;
+		}
+		.words{
+			width: 80%;
+			clear: both;
+			text-align: left;
+			float: left;
+			font-size: 14px;
+		}
+		.words h3{
+			width: 80%;
+			margin:0;
+			line-height: 25px;
+		}
+		.words a{
+			font-weight: 500;
+			display: block;
+			width: 80%;
+			text-decoration: none;
+			color:black;
+			line-height: 25px;
+		}
+		.words span{
+			color:#58585a;
+		}
+		.words img{
+			width: 20px;
+			height:20px;
+			float: right;
+		}
+		.imgages .xin{
+			width: 30px;
+			height: 30px;
+			padding:5px;
+			display: inline-block;
+			border-radius: 50%;
+			margin-top:10px;
+		}
+			/*底部	*/	
+  	.footer{
+  		width:100%;
+  		height:400px;
+  		background: black;
+  	}
+  	.footer_s{
+  		width:85%;
+  		margin:0 auto;
+  	}
+  	.footer_s ul{
+  		display: inline-block;
+  	}
+  	.footer_top{
+  		height:282px;
+  		padding-top:58px;
+  	}
+  	.footer_top ul a:hover{
+  		text-decoration: underline;
+  		color:#bdbbbc;
+  	}
+  
+  	.footer_top ul a{
+  		 color:white;
+  	}
+  	.footer_top ul li{
+  		margin-bottom:10px;
+  		font-size:14px;
+  		color:#bdbbbc;
+  	}
+  	.footer_top ul h3{
+  		color:white;
+  		font-size:14px;
+  	}
+  	.footer_top .fu1 {
+  		display: inline-block;
+  		float:left;
+  		width:68px;
+  		height:121px;
+  		margin-right:192px;
+  	}
+  	.footer_top .fu2 {
+  		float:left;
+  		margin-right:40px;
+  	}
+  	.footer_top .fu4 {
+  		float:right;
+  	}
+  	.footer_top .fu4 img {
+  		width:150px;
+  		height:150px;
+  	}
+  	.footer_bottom{
+  		width:210px;
+  		height:60px;
+  		margin:0 auto;
+	
+  	}
+  	.footer_bottom span{
+  		margin-top:10px;
+  		 font-size:12px;
+  		 color:white;
+  	}
+  	.footer_bottom span font:nth-child(1){
+  		color:#bab4c0;
+  	}
+  	.footer_bottom span p{
+  		text-align: center;
+  	}

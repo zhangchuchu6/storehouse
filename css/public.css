@@ -1,0 +1,142 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+    margin:0;
+    padding:00;
+}
+body:{
+    -font-family:"微软雅黑",Arial;
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border:none;
+}
+/*首页头部*/
+.menu1{
+				position:relative;
+			}
+			.box1{
+				width:1500px;
+				height:200px;
+				position:absolute;
+				 top: 45px;
+				background: white;
+				display: none;
+				z-index:1;
+			}
+			.box1 ul{
+				padding-left:120px;
+				font-weight:600;
+				padding-top:20px;
+			}
+			.box1 ul li{
+				margin-right:60px;
+
+			}
+			.box1 .boxleft{
+				float:left;
+				margin-left:250px;
+				margin-right:60px;
+				font-size:14px;
+			}
+			.box1 .boxright{
+				float:left;
+				font-size:14px;
+			}
+			.head{
+				width:100%;
+				height:70px;
+			}
+			.head_one{
+				width:95%;
+				height:70px;
+				margin:0 auto;
+				background: white;
+				padding-top:20px;
+				
+			}
+			.head_one .imgs{
+				width:57px;
+				height:35px;
+			vertical-align: middle;
+			}
+			.head_one ul{
+				display: inline-block;
+				list-style: none;
+			}
+			.head_one ul a li{
+				display: inline-block;
+				margin-left:30px;
+				color:black;
+				padding-bottom: 24px;
+			}
+			.head_right{
+				float:right;	
+				position:relative;			
+			}
+			.head_right .wxs{
+				opacity: 0;
+				position: absolute;
+				z-index:1;
+				 top: 40px;
+    			left: -44px;
+				width:120px;
+				height:120px;
+			}
+			.head_s{
+				display: inline-block;
+				width:136px;
+				height:26px;
+				border:1px solid gray;
+			}
+			.head_s input{
+				outline: none;
+				display: inline-block;
+				width:96px;
+				height:26px;
+				vertical-align: middle;
+				border:none;
+			}
+			.head_s button{
+				outline: none;
+				display: inline-block;			
+				width:30px;
+				height:26px;
+				vertical-align: middle;
+				border:none;
+				background: white;
+			}
+			.head_s button img{
+				display: inline-block;
+				width:20px;
+				height:20px;
+				vertical-align: middle;
+				background: white;
+			}
+			
+			.head_v .v_1{
+				vertical-align: middle;
+				margin-left:40px;
+				margin-right:32px;
+				margin-bottom:5px;
+			}
+			
+			.head_v .v_2{
+				vertical-align: middle;
+				margin-bottom:5px;
+				margin-left:10px;	
+			}
+			.head_right ul{
+			display: inline-block;
+			}
+			.head_right ul li{
+			display: inline-block;
+			}
+			.head_right ul img{
+				margin-right:40px;
+			vertical-align: middle;
+			}
+	

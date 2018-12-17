@@ -1,0 +1,207 @@
+/*首页导航*/
+
+		.Bignav{
+			width:100%;
+			overflow:hidden;
+			border-top:1px solid #cccccc;
+			margin-bottom: 30px;
+		}
+		.nav{
+			width:89%;
+			margin-left:40px;
+		}
+/*首页导航样式设置ul*/
+        .nav_top{
+        	display: inline-block;
+        	height:50px;
+        	line-height:50px;
+        }
+		.nav_top li{
+			 display: inline-block;
+			 color:black;
+		}
+/*商品列表部分样式*/
+		.nav_list{
+			width:89%;
+			margin-left:40px;
+			
+		}
+/*左边大框样式样式*/
+ 		.nav_content{
+			float:left;
+			width:220px;
+			border:1px solid black;
+			padding-bottom:20px;
+        }
+ 
+        .nav_content li h4{
+        	margin-top:16px;
+        	font-size:16px;
+        	padding-left:32px;
+        	
+        }
+        .nav_content li a{
+        	display: inline-block;
+        	color:black;
+        	padding-left:32px;
+        	margin-top:10px;
+        	font-size:14px;
+        }
+		.nav_content li a i{
+			margin-right:12px;
+			display: inline-block;
+			vertical-align: middle;
+			width:15px;
+			height:15px;
+			border:1px solid black;
+		}
+	/*i标签中的对号背景图*/
+		.nav_content li .bgimg{
+				width:16px;
+				height:16px;
+				display:none;
+		}
+	/*选择器部分样式*/
+		.nav_add{
+			width:994px;
+			float:left;
+			padding-left:46px;
+		}	
+		.nav_add select{
+			 width:242px;
+			 height:32px;
+			  font-weight: 600;
+			  font-size:16px;
+		}
+		.nav_add span{
+			float:right;
+		}
+		.address li{
+			width:318px;
+		}
+/*每件衣服的a标签*/
+		.address .imgs_add{
+			display: inline-block;
+			width:316px;
+			height:285px;
+			border:1px solid #b2b2b2;
+			text-align: center;
+			margin-top:20px;
+		}
+/*衣服的图片*/
+		.address .imgs_add img{
+			width:316px;
+			height:285px;
+		}
+		.address li{
+			display: inline-block;
+		}
+/*中间图片设置左右值*/
+		.address li{
+			margin-right:12px;
+		}
+		.address li:nth-child(3n){
+			margin-right:0;
+			
+		}
+		.address .address_three{
+			float:left;
+			margin-top:18px;
+		}
+		.address_three h3 a{
+			color:black;
+			font-size:14px;
+		}
+		.address_three p {
+			color:#58585a;
+			font-size:14px;
+			margin-top:5px;
+		}
+		.address .address_two{
+			float:right;	
+		}
+/*桃心部分*/
+		.address_two{
+			width:40px;
+			height:40px;
+			margin-top:18px;
+			border-radius: 50%;
+			border:1px solid black;
+			position:relative;
+		}
+		.address_two img{
+			width:25px;
+			height:20px;
+			position:absolute;
+			    top: 10px;
+                left: 8px;
+		}
+		/*底部	*/	
+  	.footer{
+  		margin-top: 10px;
+  		width:100%;
+  		background: black;
+  	}
+  	.footer_s{
+  		width:85%;
+  		margin:0 auto;
+  	}
+  	.footer_s ul{
+  		display: inline-block;
+  	}
+  	.footer_top{
+  		height:282px;
+  		padding-top:58px;
+  	}
+  	.footer_top ul a:hover{
+  		text-decoration: underline;
+  		color:#bdbbbc;
+  	}
+  
+  	.footer_top ul a{
+  		 color:white;
+  	}
+  	.footer_top ul li{
+  		margin-bottom:10px;
+  		font-size:14px;
+  		color:#bdbbbc;
+  	}
+  	.footer_top ul h3{
+  		color:white;
+  		font-size:14px;
+  	}
+  	.footer_top .fu1 {
+  		display: inline-block;
+  		float:left;
+  		width:68px;
+  		height:121px;
+  		margin-right:192px;
+  	}
+  	.footer_top .fu2 {
+  		float:left;
+  		margin-right:40px;
+  	}
+  	.footer_top .fu4 {
+  		float:right;
+  	}
+  	.footer_top .fu4 img {
+  		width:150px;
+  		height:150px;
+  	}
+  	.footer_bottom{
+  		width:210px;
+  		height:60px;
+  		margin:0 auto;
+	
+  	}
+  	.footer_bottom span{
+  		margin-top:10px;
+  		 font-size:12px;
+  		 color:white;
+  	}
+  	.footer_bottom span font:nth-child(1){
+  		color:#bab4c0;
+  	}
+  	.footer_bottom span p{
+  		text-align: center;
+  	}

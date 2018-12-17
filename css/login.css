@@ -1,0 +1,195 @@
+
+			.Bigbox{
+				width:100%;
+				padding-top:15px;
+				border-top:1px solid #cccccc;
+			}
+			.box{
+				width:990px;
+				margin:0 auto;
+			}
+/*登录部分*/
+			.boxleft{
+				float:left;
+				 width:34%;
+				height:750px;
+				border-right:1px solid black;
+				box-sizing: border-box;
+			}
+			.boxleft h2{
+				line-height:100px;
+				font-size:36px;
+				font-weight:400;
+			}
+			.boxleft .ul_one{
+				width:252px;
+				font-size:14px;
+				color:#999999;
+			}
+			.boxleft .ul_one li a{
+                text-decoration: underline;
+				color:#0563c3;
+			}
+           .ul_two li input{
+				display:block;
+				width:250px;
+				height:30px;
+				outline: #eeeeee;
+			}
+			.ul_two li label{
+				display: inline-block;
+				line-height: 60px;
+				font-size:16px;
+			}
+			.ul_two li a{
+				display: inline-block;
+				text-decoration: underline;
+				color:#1f2020;
+				margin-top:20px;
+			}
+/*登录按钮	*/	
+			.logins span a{
+				 display:inline-block;
+				 width:250px;
+				 height:30px;
+				 border:1px solid black;
+				 text-align: center;
+				 line-height:30px;
+				 background: black;
+				 color:white;
+				 font-size:16px;
+				 margin-top:16px;
+			}
+			.boxcenter{
+				float:left;
+				width:10%;
+				height:750px;
+				background: white;
+			}
+/*注册部分*/
+			.boxright{
+				float:left;
+				 width:56%;
+				height:750px;	
+			}
+			.boxright h2{
+				line-height:100px;
+				font-size:36px;
+				font-weight:400;
+			}
+			.boxright ul li{
+				display: inline-block;
+			}
+			.boxright ul li input{
+				display: block;
+				width:250px;
+				height:30px;
+				outline: #eeeeee;
+			}
+			.boxright ul li label{
+				display: block;
+				line-height: 60px;
+			}
+/*同意条款部分*/
+         ul .aggress{
+         	margin-top:22px;
+         }
+         ul .aggress a{
+               color:#0563c3;
+         }
+         ul .aggress i{
+         	display: inline-block;
+         	vertical-align:middle;
+         	width:20px;
+         	height:20px;
+         	border:1px solid black;
+            margin-right:20px;
+            
+         }
+          ul .aggress i img{
+               display: none;
+         }
+
+/*注册按钮*/
+.register span a{
+				 display:inline-block;
+				 width:250px;
+				 height:30px;
+				 border:1px solid black;
+				 text-align: center;
+				 line-height:30px;
+				 background: black;
+				 color:white;
+				 font-size:16px;
+				 margin-top:40px;
+			}
+	/*底部	*/	
+  	.footer{
+  		width:100%;
+  		height:400px;
+  		background: black;
+  		float:left;
+  	}
+  	.footer_s{
+  		width:85%;
+  		margin:0 auto;
+  	}
+  	.footer_s ul{
+  		display: inline-block;
+  	}
+  	.footer_top{
+  		height:282px;
+  		padding-top:58px;
+  	}
+  	.footer_top ul a:hover{
+  		text-decoration: underline;
+  		color:#bdbbbc;
+  	}
+  
+  	.footer_top ul a{
+  		 color:white;
+  	}
+  	.footer_top ul li{
+  		margin-bottom:10px;
+  		font-size:14px;
+  		color:#bdbbbc;
+  	}
+  	.footer_top ul h3{
+  		color:white;
+  		font-size:14px;
+  	}
+  	.footer_top .fu1 {
+  		display: inline-block;
+  		float:left;
+  		width:68px;
+  		height:121px;
+  		margin-right:192px;
+  	}
+  	.footer_top .fu2 {
+  		float:left;
+  		margin-right:40px;
+  	}
+  	.footer_top .fu4 {
+  		float:right;
+  	}
+  	.footer_top .fu4 img {
+  		width:150px;
+  		height:150px;
+  	}
+  	.footer_bottom{
+  		width:210px;
+  		height:60px;
+  		margin:0 auto;
+	
+  	}
+  	.footer_bottom span{
+  		margin-top:10px;
+  		 font-size:12px;
+  		 color:white;
+  	}
+  	.footer_bottom span font:nth-child(1){
+  		color:#bab4c0;
+  	}
+  	.footer_bottom span p{
+  		text-align: center;
+  	}
